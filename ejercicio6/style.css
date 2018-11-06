@@ -7,7 +7,8 @@ body{
   .column{
     width: 90%;
     float: left;
-    padding: 5%;
+    padding-top:5%;
+    margin-left: 5%;
     box-sizing: border-box;
   }
 
@@ -18,16 +19,18 @@ body{
   #header{
     background-color: #00FF30;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
 
   #text-header{
-    margin:auto;
-    padding: 7vh;
     text-transform: uppercase;
     color: white;
     text-align: center;
     font-size: 1.5em;
+    display: inline;
 
   }
 
@@ -52,16 +55,20 @@ body{
 #header{
   background-color: #00FF30;
   height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 #text-header{
   margin:auto;
-  padding: 7vh;
-  text-transform: uppercase;
+  text-transform:uppercase;
   color: white;
   text-align: center;
   font-size: 1.5em;
+
+
 
 }
 
